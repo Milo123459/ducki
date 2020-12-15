@@ -41,9 +41,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-angular", "npm:11.0.0"],
             ["@types/node", "npm:14.14.13"],
             ["@types/prettier", "npm:2.1.5"],
+            ["chalk", "npm:4.1.0"],
             ["discord.js", "npm:12.5.1"],
             ["husky", "npm:4.3.6"],
             ["lint-staged", "npm:10.5.3"],
+            ["log-symbols", "npm:4.0.0"],
+            ["moment", "npm:2.29.1"],
             ["prettier", "npm:2.2.1"],
             ["ts-node", "virtual:851947fd00bae2db3794058dbef9de8df4fb9f32a7288ca928afe8d7f4c8ee4e7c577317a2ec378d0a4a24865079de56ac42892472da5952553f9cc42ac1a6c9#npm:9.1.1"],
             ["ts-node-dev", "virtual:851947fd00bae2db3794058dbef9de8df4fb9f32a7288ca928afe8d7f4c8ee4e7c577317a2ec378d0a4a24865079de56ac42892472da5952553f9cc42ac1a6c9#npm:1.1.1"],
@@ -1163,9 +1166,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/config-angular", "npm:11.0.0"],
             ["@types/node", "npm:14.14.13"],
             ["@types/prettier", "npm:2.1.5"],
+            ["chalk", "npm:4.1.0"],
             ["discord.js", "npm:12.5.1"],
             ["husky", "npm:4.3.6"],
             ["lint-staged", "npm:10.5.3"],
+            ["log-symbols", "npm:4.0.0"],
+            ["moment", "npm:2.29.1"],
             ["prettier", "npm:2.2.1"],
             ["ts-node", "virtual:851947fd00bae2db3794058dbef9de8df4fb9f32a7288ca928afe8d7f4c8ee4e7c577317a2ec378d0a4a24865079de56ac42892472da5952553f9cc42ac1a6c9#npm:9.1.1"],
             ["ts-node-dev", "virtual:851947fd00bae2db3794058dbef9de8df4fb9f32a7288ca928afe8d7f4c8ee4e7c577317a2ec378d0a4a24865079de56ac42892472da5952553f9cc42ac1a6c9#npm:1.1.1"],
@@ -2398,6 +2404,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/mkdirp-npm-1.0.4-37f6ef56b9-1aa3a6a2d7.zip/node_modules/mkdirp/",
           "packageDependencies": [
             ["mkdirp", "npm:1.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["moment", [
+        ["npm:2.29.1", {
+          "packageLocation": "./.yarn/cache/moment-npm-2.29.1-787d9fdafd-86729013fe.zip/node_modules/moment/",
+          "packageDependencies": [
+            ["moment", "npm:2.29.1"]
           ],
           "linkType": "HARD",
         }]
