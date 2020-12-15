@@ -1,15 +1,9 @@
-# ducki
+# ⚡ ducki
 
-Created with [create-ts-pro](https://github.com/Milo123459/create-ts-pro)
+Utils for **[discord.js](https://github.com/discordjs/discord.js)**.
 
-# create-ts-pro
+**Features**:
 
-Features:
-
-* Yarn PnP
-* Husky config
-* Good defaults
-* Linters
-* Yarn bump command
-* Bump plugin & TypeScript plugin
-* Cool build / bundle commands (yarn.build)
+- Typings built in 
+- A lot of functions *WIP*
+- Stand-alone packages *WIP*
